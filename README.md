@@ -2,6 +2,7 @@
 
 ## Description
 A simple todo application that helps users manage their tasks efficiently.
+This was one of the exercise in the cohort by Harkirat Singh.
 
 ## Features
 - Add, edit, and delete tasks
