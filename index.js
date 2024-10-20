@@ -4,7 +4,7 @@ const port = 3000;
 const jwt = require("jsonwebtoken");
 const { UserModel, TodoModel } = require("./db");
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://lingarajvpatil:APPU96329@cluster0.qttsn.mongodb.net/todo-app")
+mongoose.connect("mongodb+srv://username:passwors@cluster0.qttsn.mongodb.net/todo-app") // add your mongoDB connection over here
 const { auth, JWT_SECRET } = require("./auth");
 
 app.use(express.json());
